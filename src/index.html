@@ -71,6 +71,8 @@ body {
   background-color: #FFF;
   color: #151515;
   font-size: 16px;
+  max-width: 137rem;
+  margin: 0 auto;
 }
 
 header {
@@ -79,15 +81,44 @@ header {
   z-index: 3;
 }
 
+.button {
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #fff;
+  background: linear-gradient(135deg, #fc80ff 0%, #fc80ff 100%);
+  border-radius: 10px;
+  padding: 15px 35px;
+  display: inline-block;
+}
+
+.block__info h3 {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 176%;
+  color: #fc80ff;
+  margin-bottom: 10px;
+}
+.block__info h2 {
+  font-weight: 700;
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+.block__info p {
+  font-size: 16px;
+  line-height: 187%;
+  color: #707070;
+  margin-bottom: 30px;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 10px;
-  max-width: 137rem;
-  margin: 0 auto;
   padding: 30px 10px;
   background-color: #FFF;
+  max-width: 137rem;
 }
 .header__block {
   display: flex;
@@ -118,8 +149,6 @@ header {
 }
 
 .main-section {
-  max-width: 137rem;
-  margin: 0 auto;
   padding: 120px 10px;
 }
 .main-section__top {
@@ -161,6 +190,21 @@ header {
 .main-section__images-play a {
   position: relative;
   z-index: 2;
+}
+
+.transformation {
+  padding-bottom: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px 85px;
+  flex-wrap: wrap;
+}
+.transformation__image img {
+  width: 100%;
+}
+.transformation__info {
+  flex-basis: 575px;
 }/*# sourceMappingURL=style.css.map */
     </style>
   </head>
@@ -184,20 +228,30 @@ header {
       </div>
     </div>
   </header>
+  <main> 
+    <section class="main-section">
+      <div class="main-section__top"> 
+        <div class="main-section__top-block"> 
+          <h2>Empowering Businesses for Digital Age</h2>
+          <h1>Unleashing the Power of Online Success</h1>
+        </div>
+        <div class="main-section__top-block"> 
+          <p>Digital presence and propelling your business to new heights in the digital landscape. As a leading digital agency, we understand the evolving dynamics of the online world and have the expertise to navigate its complexities with precision and creativity.</p>
+        </div>
+      </div>
+      <div class="main-section__images"> 
+        <div class="main-section__images-play"> <a href="#"> <img src="/src/images/Play.svg" alt="icon play"></a></div><img src="/src/images/Image-main-section.png" alt="image">
+      </div>
+    </section>
+    <section class="transformation">
+      <div class="transformation__image"><img src="/src/images/transformation-Image.png" alt="image"></div>
+      <div class="transformation__info">
+        <div class="block__info">
+          <h3>Our Story</h3>
+          <h2>Driving Digital Transformation with Us</h2>
+          <p>We leverage the latest advancements in technology, data analytics, and user experience to deliver exceptional digital experiences that captivate audiences, drive customer engagement, and boost brand loyalty. From crafting intuitive websites and mobile applications to implementing robust e-commerce platforms and innovative marketing campaigns, our comprehensive range of services is designed to meet the evolving needs of businesses across industries.</p><a class="button" href="#">More About Us</a>
+        </div>
+      </div>
+    </section>
+  </main>
 </body>
-<main> 
-  <div class="main-section">
-    <div class="main-section__top"> 
-      <div class="main-section__top-block"> 
-        <h2>Empowering Businesses for Digital Age</h2>
-        <h1>Unleashing the Power of Online Success</h1>
-      </div>
-      <div class="main-section__top-block"> 
-        <p>Digital presence and propelling your business to new heights in the digital landscape. As a leading digital agency, we understand the evolving dynamics of the online world and have the expertise to navigate its complexities with precision and creativity.</p>
-      </div>
-    </div>
-    <div class="main-section__images"> 
-      <div class="main-section__images-play"> <a href="#"> <img src="/src/images/Play.svg" alt="icon play"></a></div><img src="/src/images/Image-main-section.png" alt="image">
-    </div>
-  </div>
-</main>

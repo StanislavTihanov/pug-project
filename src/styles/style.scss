@@ -27,21 +27,66 @@ body {
     background-color: #FFF;
     color: #151515;
     font-size: 16px;
+    max-width: 137rem;
+    margin: 0 auto;
 }
 header {
     position: fixed;
     width: 100%;
     z-index: 3;
 }
+
+
+//=================================================variables
+$pink: #fc80ff;
+//=================================================variables
+
+
+
+//=================================================repeat blocks
+
+.button {
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #fff;
+    background: linear-gradient(135deg, $pink 0%, $pink 100%);
+    border-radius: 10px;
+    padding: 15px 35px;
+    display: inline-block;
+}
+.block__info {
+    h3 {
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 176%;
+        color: $pink;
+        margin-bottom: 10px;
+    }
+    h2 {
+        font-weight: 700;
+        font-size: 42px;
+        margin-bottom: 15px;
+    }
+    p {
+        font-size: 16px;
+        line-height: 187%;
+        color: #707070;
+        margin-bottom: 30px;
+    }
+}
+//=================================================repeat blocks
+
+
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 10px;
-    max-width: 137rem;
-    margin: 0 auto;
     padding: 30px 10px;
     background-color: #FFF;
+    max-width: 137rem;
     &__block {
         display: flex;
         justify-content: space-between;
@@ -76,8 +121,6 @@ header {
     }
 }
 .main-section {
-    max-width: 137rem;
-    margin: 0 auto;
     padding: 120px 10px;
     &__top {
         display: flex;
@@ -119,4 +162,20 @@ header {
             z-index: 2;
         }
     }
+}
+.transformation {
+   padding-bottom: 120px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px 85px;
+   flex-wrap: wrap;
+   &__image {
+      img {
+        width: 100%;
+      }
+   }
+   &__info {
+      flex-basis: 575px;
+   }
 }

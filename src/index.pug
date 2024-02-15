@@ -7,17 +7,26 @@ html(lang="ru")
         include styles/normalize.css
         include styles/style.css
 body
-    include modules/header
-main 
-  .main-section
-    .main-section__top 
-      .main-section__top-block 
-        h2 Empowering Businesses for Digital Age
-        h1 Unleashing the Power of Online Success
-      .main-section__top-block 
-        p Digital presence and propelling your business to new heights in the digital landscape. As a leading digital agency, we understand the evolving dynamics of the online world and have the expertise to navigate its complexities with precision and creativity.
-    .main-section__images 
-      .main-section__images-play 
-        a(href="#") 
-          img(src="/src/images/Play.svg", alt="icon play")
-      img(src="/src/images/Image-main-section.png", alt="image")
+  include modules/header
+  main 
+    section.main-section
+      .main-section__top 
+        .main-section__top-block 
+          h2 Empowering Businesses for Digital Age
+          h1 Unleashing the Power of Online Success
+        .main-section__top-block 
+          p Digital presence and propelling your business to new heights in the digital landscape. As a leading digital agency, we understand the evolving dynamics of the online world and have the expertise to navigate its complexities with precision and creativity.
+      .main-section__images 
+        .main-section__images-play 
+          a(href="#") 
+            img(src="/src/images/Play.svg", alt="icon play")
+        img(src="/src/images/Image-main-section.png", alt="image")
+    section.transformation
+      .transformation__image
+        img(src="/src/images/transformation-Image.png", alt="image")
+      .transformation__info
+        .block__info
+          h3 Our Story
+          h2 Driving Digital Transformation with Us
+          p We leverage the latest advancements in technology, data analytics, and user experience to deliver exceptional digital experiences that captivate audiences, drive customer engagement, and boost brand loyalty. From crafting intuitive websites and mobile applications to implementing robust e-commerce platforms and innovative marketing campaigns, our comprehensive range of services is designed to meet the evolving needs of businesses across industries.
+          a(href="#").button More About Us
