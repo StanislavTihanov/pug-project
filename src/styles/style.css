@@ -30,12 +30,17 @@ body {
   font-size: 16px;
   max-width: 137rem;
   margin: 0 auto;
+  padding: 0px 10px;
 }
 
 header {
   position: fixed;
   width: 100%;
   z-index: 3;
+}
+
+section {
+  margin-bottom: 120px;
 }
 
 .button {
@@ -105,9 +110,6 @@ header {
   font-size: 16px;
 }
 
-.main-section {
-  padding: 120px 10px;
-}
 .main-section__top {
   display: flex;
   justify-content: space-between;
@@ -150,7 +152,6 @@ header {
 }
 
 .transformation {
-  padding-bottom: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -162,4 +163,12 @@ header {
 }
 .transformation__info {
   flex-basis: 575px;
+}
+
+.redefining {
+  text-align: center;
+}
+.redefining__content {
+  max-width: 950px;
+  margin: 0 auto;
 }/*# sourceMappingURL=style.css.map */

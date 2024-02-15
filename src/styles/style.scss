@@ -29,13 +29,16 @@ body {
     font-size: 16px;
     max-width: 137rem;
     margin: 0 auto;
+    padding: 0px 10px;
 }
 header {
     position: fixed;
     width: 100%;
     z-index: 3;
 }
-
+section {
+    margin-bottom: 120px;
+}
 
 //=================================================variables
 $pink: #fc80ff;
@@ -121,7 +124,6 @@ $pink: #fc80ff;
     }
 }
 .main-section {
-    padding: 120px 10px;
     &__top {
         display: flex;
         justify-content: space-between;
@@ -164,7 +166,6 @@ $pink: #fc80ff;
     }
 }
 .transformation {
-   padding-bottom: 120px;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -177,5 +178,12 @@ $pink: #fc80ff;
    }
    &__info {
       flex-basis: 575px;
+   }
+}
+.redefining {
+   text-align: center;
+   &__content {
+    max-width: 950px;
+    margin: 0 auto;
    }
 }
