@@ -6,7 +6,18 @@ html(lang="ru")
     style 
         include styles/normalize.css
         include styles/style.css
-  body
+body
     include modules/header
-    h1 Pug - node template engine
-    include modules/footer
+main 
+  .main-section
+    .main-section__top 
+      .main-section__top-block 
+        h2 Empowering Businesses for Digital Age
+        h1 Unleashing the Power of Online Success
+      .main-section__top-block 
+        p Digital presence and propelling your business to new heights in the digital landscape. As a leading digital agency, we understand the evolving dynamics of the online world and have the expertise to navigate its complexities with precision and creativity.
+    .main-section__images 
+      .main-section__images-play 
+        a(href="#") 
+          img(src="/src/images/Play.svg", alt="icon play")
+      img(src="/src/images/Image-main-section.png", alt="image")
