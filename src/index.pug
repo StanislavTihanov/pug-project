@@ -6,113 +6,144 @@ html(lang="ru")
     style 
         include styles/normalize.css
         include styles/style.css
-body
-  include modules/header
-  main 
-    section.main-section
-      .main-section__top 
-        .main-section__top-block 
-          h2 Empowering Businesses for Digital Age
-          h1 Unleashing the Power of Online Success
-        .main-section__top-block 
-          p Digital presence and propelling your business to new heights in the digital landscape. As a leading digital agency, we understand the evolving dynamics of the online world and have the expertise to navigate its complexities with precision and creativity.
-      .main-section__images 
-        .main-section__images-play 
-          a(href="#") 
-            img(src="/src/images/Play.svg", alt="icon play")
-        img(src="/src/images/Image-main-section.png", alt="image")
-    section.transformation
-      .transformation__image
-        img(src="/src/images/transformation-Image.png", alt="image")
-      .transformation__info
-        .block__info
-          h3 Our Story
-          h2 Driving Digital Transformation with Us
-          p We leverage the latest advancements in technology, data analytics, and user experience to deliver exceptional digital experiences that captivate audiences, drive customer engagement, and boost brand loyalty. From crafting intuitive websites and mobile applications to implementing robust e-commerce platforms and innovative marketing campaigns, our comprehensive range of services is designed to meet the evolving needs of businesses across industries.
-          a(href="#").button More About Us
-    section.redefining 
-      .redefining__content 
-        .block__info
-          h3 Beyond Boundaries
-          h2 Redefining Excellence with DigiTenz's Innovative Solutions
-          p At DigiTenz, we believe in pushing the boundaries of excellence through our innovative solutions. We are dedicated to transforming industries, empowering businesses, and driving digital evolution forward. With our cutting-edge technology and forward-thinking approach, we strive to redefine what is possible.
-          a(href="#").button Contact Us 
-    section.digital
-      .digital__content 
-        .digital__block 
+  body
+    include modules/header
+    main 
+      section.main-section
+        .main-section__top 
+          .main-section__top-block 
+            h2 Empowering Businesses for Digital Age
+            h1 Unleashing the Power of Online Success
+          .main-section__top-block 
+            p Digital presence and propelling your business to new heights in the digital landscape. As a leading digital agency, we understand the evolving dynamics of the online world and have the expertise to navigate its complexities with precision and creativity.
+        .main-section__images 
+          .main-section__images-play 
+            a(href="#") 
+              img(src="/src/images/Play.svg", alt="icon play")
+          img(src="/src/images/Image-main-section.png", alt="image").main-section__images--mod
+      section.transformation
+        .transformation__image
+          img(src="/src/images/transformation-Image.png", alt="image")
+        .transformation__info
           .block__info
-            h3 Our Services
-            h2 Digital Solutions Suite
-            p Our Digital Solutions Suite encompasses a wide range of cutting-edge technologies and innovative tools.
-          ul.digital__list 
-            li.digital__list-item 
-              p 1. UI/UX Design
-              a(href="#") 
-                <svg width="49" height="49" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect width="49" height="49" rx="24.5" fill="#151515" fill-opacity="0.05"/>
-                <path d="M28.844 20.2074C28.7043 20.341 28.6258 20.5217 28.6258 20.7101C28.6258 20.8984 28.7043 21.0792 28.844 21.2128L31.5668 23.7727L16.2501 23.7727C16.0511 23.7727 15.8604 23.8478 15.7197 23.9815C15.579 24.1153 15.5 24.2966 15.5 24.4857C15.5 24.6749 15.579 24.8562 15.7197 24.9899C15.8604 25.1237 16.0511 25.1988 16.2501 25.1988L31.5593 25.1988L28.844 27.7801C28.7737 27.8464 28.7179 27.9252 28.6798 28.0121C28.6417 28.099 28.6221 28.1922 28.6221 28.2864C28.6221 28.3805 28.6417 28.4737 28.6798 28.5606C28.7179 28.6475 28.7737 28.7264 28.844 28.7926C28.9845 28.9255 29.1746 29 29.3728 29C29.5709 29 29.761 28.9255 29.9016 28.7926L32.8419 26.0046C33.2633 25.6035 33.5 25.0598 33.5 24.4929C33.5 23.926 33.2633 23.3823 32.8419 22.9812L29.9016 20.2074C29.761 20.0745 29.5709 20 29.3728 20C29.1746 20 28.9845 20.0745 28.844 20.2074Z" fill="#151515"/>
+            h3 Our Story
+            h2 Driving Digital Transformation with Us
+            p We leverage the latest advancements in technology, data analytics, and user experience to deliver exceptional digital experiences that captivate audiences, drive customer engagement, and boost brand loyalty. From crafting intuitive websites and mobile applications to implementing robust e-commerce platforms and innovative marketing campaigns, our comprehensive range of services is designed to meet the evolving needs of businesses across industries.
+            a(href="#").button More About Us
+      section.redefining 
+        .redefining__content 
+          .block__info
+            h3 Beyond Boundaries
+            h2 Redefining Excellence with DigiTenz's Innovative Solutions
+            p At DigiTenz, we believe in pushing the boundaries of excellence through our innovative solutions. We are dedicated to transforming industries, empowering businesses, and driving digital evolution forward. With our cutting-edge technology and forward-thinking approach, we strive to redefine what is possible.
+            a(href="#").button Contact Us 
+      section.digital
+        .digital__content 
+          .digital__block 
+            .block__info
+              h3 Our Services
+              h2 Digital Solutions Suite
+              p Our Digital Solutions Suite encompasses a wide range of cutting-edge technologies and innovative tools.
+            ul.digital__list 
+              li.digital__list-item 
+                p 1. UI/UX Design
+                a(href="#") 
+                  <svg width="49" height="49" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="49" height="49" rx="24.5" fill="#151515" fill-opacity="0.05"/>
+                  <path d="M28.844 20.2074C28.7043 20.341 28.6258 20.5217 28.6258 20.7101C28.6258 20.8984 28.7043 21.0792 28.844 21.2128L31.5668 23.7727L16.2501 23.7727C16.0511 23.7727 15.8604 23.8478 15.7197 23.9815C15.579 24.1153 15.5 24.2966 15.5 24.4857C15.5 24.6749 15.579 24.8562 15.7197 24.9899C15.8604 25.1237 16.0511 25.1988 16.2501 25.1988L31.5593 25.1988L28.844 27.7801C28.7737 27.8464 28.7179 27.9252 28.6798 28.0121C28.6417 28.099 28.6221 28.1922 28.6221 28.2864C28.6221 28.3805 28.6417 28.4737 28.6798 28.5606C28.7179 28.6475 28.7737 28.7264 28.844 28.7926C28.9845 28.9255 29.1746 29 29.3728 29C29.5709 29 29.761 28.9255 29.9016 28.7926L32.8419 26.0046C33.2633 25.6035 33.5 25.0598 33.5 24.4929C33.5 23.926 33.2633 23.3823 32.8419 22.9812L29.9016 20.2074C29.761 20.0745 29.5709 20 29.3728 20C29.1746 20 28.9845 20.0745 28.844 20.2074Z" fill="#151515"/>
+                  </svg>
+              li.digital__list-item 
+                p 2. Web Development
+                a(href="#") 
+                  <svg width="49" height="49" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="49" height="49" rx="24.5" fill="#151515" fill-opacity="0.05"/>
+                  <path d="M28.844 20.2074C28.7043 20.341 28.6258 20.5217 28.6258 20.7101C28.6258 20.8984 28.7043 21.0792 28.844 21.2128L31.5668 23.7727L16.2501 23.7727C16.0511 23.7727 15.8604 23.8478 15.7197 23.9815C15.579 24.1153 15.5 24.2966 15.5 24.4857C15.5 24.6749 15.579 24.8562 15.7197 24.9899C15.8604 25.1237 16.0511 25.1988 16.2501 25.1988L31.5593 25.1988L28.844 27.7801C28.7737 27.8464 28.7179 27.9252 28.6798 28.0121C28.6417 28.099 28.6221 28.1922 28.6221 28.2864C28.6221 28.3805 28.6417 28.4737 28.6798 28.5606C28.7179 28.6475 28.7737 28.7264 28.844 28.7926C28.9845 28.9255 29.1746 29 29.3728 29C29.5709 29 29.761 28.9255 29.9016 28.7926L32.8419 26.0046C33.2633 25.6035 33.5 25.0598 33.5 24.4929C33.5 23.926 33.2633 23.3823 32.8419 22.9812L29.9016 20.2074C29.761 20.0745 29.5709 20 29.3728 20C29.1746 20 28.9845 20.0745 28.844 20.2074Z" fill="#151515"/>
+                  </svg>
+              li.digital__list-item 
+                p 3. 3D Designs
+                a(href="#") 
+                  <svg width="49" height="49" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="49" height="49" rx="24.5" fill="#151515" fill-opacity="0.05"/>
+                  <path d="M28.844 20.2074C28.7043 20.341 28.6258 20.5217 28.6258 20.7101C28.6258 20.8984 28.7043 21.0792 28.844 21.2128L31.5668 23.7727L16.2501 23.7727C16.0511 23.7727 15.8604 23.8478 15.7197 23.9815C15.579 24.1153 15.5 24.2966 15.5 24.4857C15.5 24.6749 15.579 24.8562 15.7197 24.9899C15.8604 25.1237 16.0511 25.1988 16.2501 25.1988L31.5593 25.1988L28.844 27.7801C28.7737 27.8464 28.7179 27.9252 28.6798 28.0121C28.6417 28.099 28.6221 28.1922 28.6221 28.2864C28.6221 28.3805 28.6417 28.4737 28.6798 28.5606C28.7179 28.6475 28.7737 28.7264 28.844 28.7926C28.9845 28.9255 29.1746 29 29.3728 29C29.5709 29 29.761 28.9255 29.9016 28.7926L32.8419 26.0046C33.2633 25.6035 33.5 25.0598 33.5 24.4929C33.5 23.926 33.2633 23.3823 32.8419 22.9812L29.9016 20.2074C29.761 20.0745 29.5709 20 29.3728 20C29.1746 20 28.9845 20.0745 28.844 20.2074Z" fill="#151515"/>
+                  </svg>
+              li.digital__list-item 
+                p 4. Motion Graphics
+                a(href="#") 
+                  <svg width="49" height="49" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="49" height="49" rx="24.5" fill="#151515" fill-opacity="0.05"/>
+                  <path d="M28.844 20.2074C28.7043 20.341 28.6258 20.5217 28.6258 20.7101C28.6258 20.8984 28.7043 21.0792 28.844 21.2128L31.5668 23.7727L16.2501 23.7727C16.0511 23.7727 15.8604 23.8478 15.7197 23.9815C15.579 24.1153 15.5 24.2966 15.5 24.4857C15.5 24.6749 15.579 24.8562 15.7197 24.9899C15.8604 25.1237 16.0511 25.1988 16.2501 25.1988L31.5593 25.1988L28.844 27.7801C28.7737 27.8464 28.7179 27.9252 28.6798 28.0121C28.6417 28.099 28.6221 28.1922 28.6221 28.2864C28.6221 28.3805 28.6417 28.4737 28.6798 28.5606C28.7179 28.6475 28.7737 28.7264 28.844 28.7926C28.9845 28.9255 29.1746 29 29.3728 29C29.5709 29 29.761 28.9255 29.9016 28.7926L32.8419 26.0046C33.2633 25.6035 33.5 25.0598 33.5 24.4929C33.5 23.926 33.2633 23.3823 32.8419 22.9812L29.9016 20.2074C29.761 20.0745 29.5709 20 29.3728 20C29.1746 20 28.9845 20.0745 28.844 20.2074Z" fill="#151515"/>
+                  </svg>
+          .digital__block 
+            img(src="/src/images/digital-Image.png", alt="image")
+          .digital__block 
+            .digital__question 
+              p Ever wondered how design magic happens?
+              h3 See How We Work
+              a(href="#")
+                <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="50" height="50" rx="25" fill="url(#paint0_linear_44_61)"/>
+                <path d="M24.5822 18.4389C24.5779 18.6322 24.6502 18.8154 24.7835 18.9486C24.9167 19.0818 25.0999 19.1542 25.2932 19.1499L29.0286 19.0347L18.1981 29.8652C18.0574 30.0059 17.9756 30.1939 17.9707 30.3879C17.9658 30.582 18.0382 30.7661 18.1719 30.8998C18.3056 31.0335 18.4897 31.1059 18.6838 31.101C18.8778 31.0961 19.0658 31.0143 19.2065 30.8736L30.0317 20.0484L29.937 23.7937C29.9341 23.8903 29.9504 23.9855 29.9849 24.0738C30.0195 24.1622 30.0715 24.242 30.1381 24.3085C30.2046 24.3751 30.2844 24.4271 30.3728 24.4617C30.4611 24.4962 30.5563 24.5125 30.6529 24.5097C30.8462 24.5042 31.0334 24.4225 31.1735 24.2823C31.3136 24.1422 31.3953 23.9551 31.4008 23.7618L31.5084 19.7112C31.5228 19.1296 31.3057 18.5778 30.9048 18.1769C30.504 17.7761 29.9522 17.559 29.3706 17.5733L25.3301 17.6911C25.1368 17.6966 24.9496 17.7783 24.8095 17.9184C24.6694 18.0585 24.5877 18.2456 24.5822 18.4389Z" fill="white"/>
+                <defs>
+                <linearGradient id="paint0_linear_44_61" x1="10.6942" y1="10.6942" x2="37.0673" y2="18.2452" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#FC80FF"/>
+                <stop offset="1" stop-color="#DE80FF"/>
+                </linearGradient>
+                </defs>
                 </svg>
-            li.digital__list-item 
-              p 2. Web Development
-              a(href="#") 
-                <svg width="49" height="49" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect width="49" height="49" rx="24.5" fill="#151515" fill-opacity="0.05"/>
-                <path d="M28.844 20.2074C28.7043 20.341 28.6258 20.5217 28.6258 20.7101C28.6258 20.8984 28.7043 21.0792 28.844 21.2128L31.5668 23.7727L16.2501 23.7727C16.0511 23.7727 15.8604 23.8478 15.7197 23.9815C15.579 24.1153 15.5 24.2966 15.5 24.4857C15.5 24.6749 15.579 24.8562 15.7197 24.9899C15.8604 25.1237 16.0511 25.1988 16.2501 25.1988L31.5593 25.1988L28.844 27.7801C28.7737 27.8464 28.7179 27.9252 28.6798 28.0121C28.6417 28.099 28.6221 28.1922 28.6221 28.2864C28.6221 28.3805 28.6417 28.4737 28.6798 28.5606C28.7179 28.6475 28.7737 28.7264 28.844 28.7926C28.9845 28.9255 29.1746 29 29.3728 29C29.5709 29 29.761 28.9255 29.9016 28.7926L32.8419 26.0046C33.2633 25.6035 33.5 25.0598 33.5 24.4929C33.5 23.926 33.2633 23.3823 32.8419 22.9812L29.9016 20.2074C29.761 20.0745 29.5709 20 29.3728 20C29.1746 20 28.9845 20.0745 28.844 20.2074Z" fill="#151515"/>
+            .digital__question 
+              p Looking for design experts who can bring you vision to life?
+              h3 Meet Our Expert
+              a(href="#")
+                <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="50" height="50" rx="25" fill="url(#paint0_linear_44_61)"/>
+                <path d="M24.5822 18.4389C24.5779 18.6322 24.6502 18.8154 24.7835 18.9486C24.9167 19.0818 25.0999 19.1542 25.2932 19.1499L29.0286 19.0347L18.1981 29.8652C18.0574 30.0059 17.9756 30.1939 17.9707 30.3879C17.9658 30.582 18.0382 30.7661 18.1719 30.8998C18.3056 31.0335 18.4897 31.1059 18.6838 31.101C18.8778 31.0961 19.0658 31.0143 19.2065 30.8736L30.0317 20.0484L29.937 23.7937C29.9341 23.8903 29.9504 23.9855 29.9849 24.0738C30.0195 24.1622 30.0715 24.242 30.1381 24.3085C30.2046 24.3751 30.2844 24.4271 30.3728 24.4617C30.4611 24.4962 30.5563 24.5125 30.6529 24.5097C30.8462 24.5042 31.0334 24.4225 31.1735 24.2823C31.3136 24.1422 31.3953 23.9551 31.4008 23.7618L31.5084 19.7112C31.5228 19.1296 31.3057 18.5778 30.9048 18.1769C30.504 17.7761 29.9522 17.559 29.3706 17.5733L25.3301 17.6911C25.1368 17.6966 24.9496 17.7783 24.8095 17.9184C24.6694 18.0585 24.5877 18.2456 24.5822 18.4389Z" fill="white"/>
+                <defs>
+                <linearGradient id="paint0_linear_44_61" x1="10.6942" y1="10.6942" x2="37.0673" y2="18.2452" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#FC80FF"/>
+                <stop offset="1" stop-color="#DE80FF"/>
+                </linearGradient>
+                </defs>
                 </svg>
-            li.digital__list-item 
-              p 3. 3D Designs
-              a(href="#") 
-                <svg width="49" height="49" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect width="49" height="49" rx="24.5" fill="#151515" fill-opacity="0.05"/>
-                <path d="M28.844 20.2074C28.7043 20.341 28.6258 20.5217 28.6258 20.7101C28.6258 20.8984 28.7043 21.0792 28.844 21.2128L31.5668 23.7727L16.2501 23.7727C16.0511 23.7727 15.8604 23.8478 15.7197 23.9815C15.579 24.1153 15.5 24.2966 15.5 24.4857C15.5 24.6749 15.579 24.8562 15.7197 24.9899C15.8604 25.1237 16.0511 25.1988 16.2501 25.1988L31.5593 25.1988L28.844 27.7801C28.7737 27.8464 28.7179 27.9252 28.6798 28.0121C28.6417 28.099 28.6221 28.1922 28.6221 28.2864C28.6221 28.3805 28.6417 28.4737 28.6798 28.5606C28.7179 28.6475 28.7737 28.7264 28.844 28.7926C28.9845 28.9255 29.1746 29 29.3728 29C29.5709 29 29.761 28.9255 29.9016 28.7926L32.8419 26.0046C33.2633 25.6035 33.5 25.0598 33.5 24.4929C33.5 23.926 33.2633 23.3823 32.8419 22.9812L29.9016 20.2074C29.761 20.0745 29.5709 20 29.3728 20C29.1746 20 28.9845 20.0745 28.844 20.2074Z" fill="#151515"/>
-                </svg>
-            li.digital__list-item 
-              p 4. Motion Graphics
-              a(href="#") 
-                <svg width="49" height="49" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect width="49" height="49" rx="24.5" fill="#151515" fill-opacity="0.05"/>
-                <path d="M28.844 20.2074C28.7043 20.341 28.6258 20.5217 28.6258 20.7101C28.6258 20.8984 28.7043 21.0792 28.844 21.2128L31.5668 23.7727L16.2501 23.7727C16.0511 23.7727 15.8604 23.8478 15.7197 23.9815C15.579 24.1153 15.5 24.2966 15.5 24.4857C15.5 24.6749 15.579 24.8562 15.7197 24.9899C15.8604 25.1237 16.0511 25.1988 16.2501 25.1988L31.5593 25.1988L28.844 27.7801C28.7737 27.8464 28.7179 27.9252 28.6798 28.0121C28.6417 28.099 28.6221 28.1922 28.6221 28.2864C28.6221 28.3805 28.6417 28.4737 28.6798 28.5606C28.7179 28.6475 28.7737 28.7264 28.844 28.7926C28.9845 28.9255 29.1746 29 29.3728 29C29.5709 29 29.761 28.9255 29.9016 28.7926L32.8419 26.0046C33.2633 25.6035 33.5 25.0598 33.5 24.4929C33.5 23.926 33.2633 23.3823 32.8419 22.9812L29.9016 20.2074C29.761 20.0745 29.5709 20 29.3728 20C29.1746 20 28.9845 20.0745 28.844 20.2074Z" fill="#151515"/>
-                </svg>
-        .digital__block 
-          img(src="/src/images/digital-Image.png", alt="image")
-        .digital__block 
-          .digital__question 
-             p Ever wondered how design magic happens?
-             h3 See How We Work
-             a(href="#")
-              <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect width="50" height="50" rx="25" fill="url(#paint0_linear_44_61)"/>
-              <path d="M24.5822 18.4389C24.5779 18.6322 24.6502 18.8154 24.7835 18.9486C24.9167 19.0818 25.0999 19.1542 25.2932 19.1499L29.0286 19.0347L18.1981 29.8652C18.0574 30.0059 17.9756 30.1939 17.9707 30.3879C17.9658 30.582 18.0382 30.7661 18.1719 30.8998C18.3056 31.0335 18.4897 31.1059 18.6838 31.101C18.8778 31.0961 19.0658 31.0143 19.2065 30.8736L30.0317 20.0484L29.937 23.7937C29.9341 23.8903 29.9504 23.9855 29.9849 24.0738C30.0195 24.1622 30.0715 24.242 30.1381 24.3085C30.2046 24.3751 30.2844 24.4271 30.3728 24.4617C30.4611 24.4962 30.5563 24.5125 30.6529 24.5097C30.8462 24.5042 31.0334 24.4225 31.1735 24.2823C31.3136 24.1422 31.3953 23.9551 31.4008 23.7618L31.5084 19.7112C31.5228 19.1296 31.3057 18.5778 30.9048 18.1769C30.504 17.7761 29.9522 17.559 29.3706 17.5733L25.3301 17.6911C25.1368 17.6966 24.9496 17.7783 24.8095 17.9184C24.6694 18.0585 24.5877 18.2456 24.5822 18.4389Z" fill="white"/>
-              <defs>
-              <linearGradient id="paint0_linear_44_61" x1="10.6942" y1="10.6942" x2="37.0673" y2="18.2452" gradientUnits="userSpaceOnUse">
-              <stop stop-color="#FC80FF"/>
-              <stop offset="1" stop-color="#DE80FF"/>
-              </linearGradient>
-              </defs>
-              </svg>
- 
-          .digital__question 
-             p Looking for design experts who can bring you vision to life?
-             h3 Meet Our Expert
-             a(href="#")
-              <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect width="50" height="50" rx="25" fill="url(#paint0_linear_44_61)"/>
-              <path d="M24.5822 18.4389C24.5779 18.6322 24.6502 18.8154 24.7835 18.9486C24.9167 19.0818 25.0999 19.1542 25.2932 19.1499L29.0286 19.0347L18.1981 29.8652C18.0574 30.0059 17.9756 30.1939 17.9707 30.3879C17.9658 30.582 18.0382 30.7661 18.1719 30.8998C18.3056 31.0335 18.4897 31.1059 18.6838 31.101C18.8778 31.0961 19.0658 31.0143 19.2065 30.8736L30.0317 20.0484L29.937 23.7937C29.9341 23.8903 29.9504 23.9855 29.9849 24.0738C30.0195 24.1622 30.0715 24.242 30.1381 24.3085C30.2046 24.3751 30.2844 24.4271 30.3728 24.4617C30.4611 24.4962 30.5563 24.5125 30.6529 24.5097C30.8462 24.5042 31.0334 24.4225 31.1735 24.2823C31.3136 24.1422 31.3953 23.9551 31.4008 23.7618L31.5084 19.7112C31.5228 19.1296 31.3057 18.5778 30.9048 18.1769C30.504 17.7761 29.9522 17.559 29.3706 17.5733L25.3301 17.6911C25.1368 17.6966 24.9496 17.7783 24.8095 17.9184C24.6694 18.0585 24.5877 18.2456 24.5822 18.4389Z" fill="white"/>
-              <defs>
-              <linearGradient id="paint0_linear_44_61" x1="10.6942" y1="10.6942" x2="37.0673" y2="18.2452" gradientUnits="userSpaceOnUse">
-              <stop stop-color="#FC80FF"/>
-              <stop offset="1" stop-color="#DE80FF"/>
-              </linearGradient>
-              </defs>
-              </svg>
-    section.portfolio 
-      .portfolio__title 
-        .block__info
-            h3 Our Projects
-            h2 Our Portfolio of Success Stories
-      .portfolio__body 
-        .swiper 
-          .swiper-wrapper
-            .swiper-slide
-          .swiper-button-prev
-          .swiper-button-next
+      section.portfolio 
+        .portfolio__title 
+          .block__info
+              h3 Our Projects
+              h2 Our Portfolio of Success Stories
+        .portfolio__body 
+          .portfolio__image 
+            img(src="/src/images/portfolio-image.png", alt="image")
+          .portfolio__info 
+            h3 Valentine’s Day Offers Store Website
+            p Our user-friendly website ensures a hassle-free shopping experience. Effortlessly navigate through different categories, apply filters to refine your search, and discover unique Valentine's Day treasures that will make hearts skip a beat.
+            a(href="#").button More Details
+      section.innovation
+        .innovation__title 
+          h2 Innovation
+          <svg width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M16.6397 3.7121C17.4264 1.71954 17.8197 0.723258 18.5 0.723258C19.1803 0.723258 19.5736 1.71954 20.3603 3.7121L22.2686 8.54591C22.5906 9.36162 22.7517 9.76947 23.1042 9.93925C23.4568 10.109 23.876 9.98063 24.7146 9.72382L29.6836 8.20198C31.7319 7.57466 32.7561 7.261 33.1802 7.79289C33.6044 8.32479 33.0707 9.25347 32.0033 11.1108L29.4139 15.6167C28.977 16.377 28.7585 16.7572 28.8456 17.1387C28.9326 17.5202 29.2944 17.7679 30.018 18.2634L34.306 21.1995C36.0736 22.4098 36.9574 23.015 36.806 23.6782C36.6546 24.3415 35.5958 24.5032 33.4781 24.8268L28.3408 25.6116C27.4739 25.7441 27.0405 25.8103 26.7965 26.1162C26.5525 26.4222 26.5844 26.8595 26.6482 27.7342L27.0262 32.9173C27.182 35.0538 27.2599 36.1221 26.6469 36.4173C26.034 36.7124 25.2473 35.9855 23.6741 34.5316L19.8574 31.0044C19.2133 30.4092 18.8913 30.1116 18.5 30.1116C18.1087 30.1116 17.7867 30.4092 17.1426 31.0044L13.3259 34.5316C11.7527 35.9855 10.966 36.7124 10.3531 36.4173C9.74013 36.1221 9.81803 35.0538 9.97383 32.9173L10.3518 27.7342C10.4156 26.8595 10.4475 26.4222 10.2035 26.1162C9.95951 25.8103 9.52606 25.7441 8.65915 25.6116L3.52188 24.8268C1.40424 24.5032 0.345415 24.3415 0.194029 23.6782C0.0426434 23.015 0.926424 22.4098 2.69398 21.1995L6.98196 18.2634C7.70555 17.7679 8.06735 17.5202 8.15443 17.1387C8.2415 16.7572 8.02302 16.377 7.58606 15.6167L4.99666 11.1108C3.92927 9.25347 3.39558 8.32479 3.81975 7.79289C4.24392 7.261 5.26808 7.57466 7.31639 8.20198L12.2854 9.72382C13.124 9.98063 13.5432 10.109 13.8958 9.93925C14.2483 9.76947 14.4094 9.36162 14.7314 8.54591L16.6397 3.7121Z" fill="url(#paint0_linear_70_198)"/>
+          <defs>
+          <linearGradient id="paint0_linear_70_198" x1="18.5" y1="-1" x2="18.5" y2="40" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#FC80FF"/>
+          <stop offset="1" stop-color="#DE80FF"/>
+          </linearGradient>
+          </defs>
+          </svg>
+          h2 Inspire
+          <svg width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M16.6397 3.7121C17.4264 1.71954 17.8197 0.723258 18.5 0.723258C19.1803 0.723258 19.5736 1.71954 20.3603 3.7121L22.2686 8.54591C22.5906 9.36162 22.7517 9.76947 23.1042 9.93925C23.4568 10.109 23.876 9.98063 24.7146 9.72382L29.6836 8.20198C31.7319 7.57466 32.7561 7.261 33.1802 7.79289C33.6044 8.32479 33.0707 9.25347 32.0033 11.1108L29.4139 15.6167C28.977 16.377 28.7585 16.7572 28.8456 17.1387C28.9326 17.5202 29.2944 17.7679 30.018 18.2634L34.306 21.1995C36.0736 22.4098 36.9574 23.015 36.806 23.6782C36.6546 24.3415 35.5958 24.5032 33.4781 24.8268L28.3408 25.6116C27.4739 25.7441 27.0405 25.8103 26.7965 26.1162C26.5525 26.4222 26.5844 26.8595 26.6482 27.7342L27.0262 32.9173C27.182 35.0538 27.2599 36.1221 26.6469 36.4173C26.034 36.7124 25.2473 35.9855 23.6741 34.5316L19.8574 31.0044C19.2133 30.4092 18.8913 30.1116 18.5 30.1116C18.1087 30.1116 17.7867 30.4092 17.1426 31.0044L13.3259 34.5316C11.7527 35.9855 10.966 36.7124 10.3531 36.4173C9.74013 36.1221 9.81803 35.0538 9.97383 32.9173L10.3518 27.7342C10.4156 26.8595 10.4475 26.4222 10.2035 26.1162C9.95951 25.8103 9.52606 25.7441 8.65915 25.6116L3.52188 24.8268C1.40424 24.5032 0.345415 24.3415 0.194029 23.6782C0.0426434 23.015 0.926424 22.4098 2.69398 21.1995L6.98196 18.2634C7.70555 17.7679 8.06735 17.5202 8.15443 17.1387C8.2415 16.7572 8.02302 16.377 7.58606 15.6167L4.99666 11.1108C3.92927 9.25347 3.39558 8.32479 3.81975 7.79289C4.24392 7.261 5.26808 7.57466 7.31639 8.20198L12.2854 9.72382C13.124 9.98063 13.5432 10.109 13.8958 9.93925C14.2483 9.76947 14.4094 9.36162 14.7314 8.54591L16.6397 3.7121Z" fill="url(#paint0_linear_70_198)"/>
+          <defs>
+          <linearGradient id="paint0_linear_70_198" x1="18.5" y1="-1" x2="18.5" y2="40" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#FC80FF"/>
+          <stop offset="1" stop-color="#DE80FF"/>
+          </linearGradient>
+          </defs>
+          </svg>
+          h2 Create
+        .innovation__image 
+          img(src="/src/images/innovation-Image.png", alt="image")
+        .innovation__text 
+          p Finding the perfect fit for your team can be a challenging and time-consuming task. However, with DigiTenz's hiring agency, we take the guesswork out of the process and streamline your talent acquisition journey.
+        .innovation__buttons 
+          a(href="#") Hire us
+          a(href="#") Book Consultation
+    include modules/footer
